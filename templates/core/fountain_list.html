@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<link href="{% static '/base/css/media.css' %}" rel="stylesheet" type="text/css">
+
+<div class = "d-flex justify-content-center p-3"  style = "font-size:300%;">
+	<a align="justify">Фонтаны</a>
+</div>
+<div class="d-flex flex-wrap justify-content-center p-2 text-center">
+	{% for i in object_list %}
+	<div class="p-5" style="width:400px; word-wrap:break-word">
+    	<div>
+    		<img src ="{{i.img.url}}" class="gallery"></img>
+    	</div>
+		<div>
+			<a>{{i.name}}</a>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+	
+{% endblock content %}

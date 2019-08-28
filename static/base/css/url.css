@@ -1,0 +1,17 @@
+a.tel {
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+}
+a.tel:hover {
+    text-decoration: none;
+    color: black;
+}
+a.tel:visited {
+    text-decoration: none;
+    color: black;
+}
+a.tel:active {
+    text-decoration: none;
+    color: black;
+}
