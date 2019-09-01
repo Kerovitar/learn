@@ -2,3 +2,8 @@ img.gallery {
     height: auto; 
     max-width: 100%;
 }
+
+img.front{
+    vertical-align: middle;
+    border-style: none;
+}
