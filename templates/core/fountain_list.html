@@ -3,10 +3,6 @@
 {% block content %}
 {% load staticfiles %}
 <link href="{% static '/base/css/media.css' %}" rel="stylesheet" type="text/css">
-
-<div class = "d-flex justify-content-center p-3"  style = "font-size:300%;">
-	<a align="justify">Фонтаны</a>
-</div>
 <div class="d-flex flex-wrap justify-content-center p-2 text-center">
 	{% for i in object_list %}
 	<div class="p-5" style="width:350px; word-wrap:break-word">

@@ -3,7 +3,7 @@ img.gallery {
     max-width: 100%;
 }
 
-img.front{
-    vertical-align: middle;
-    border-style: none;
+img.homepage{
+    width: 140px;
+    height: 140px;
 }

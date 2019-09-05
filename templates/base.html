@@ -7,6 +7,7 @@
 		{% load staticfiles %}
 		<link href="{% static '/base/css/url.css' %}" rel="stylesheet" type="text/css">
 		<link href="{% static '/base/css/media.css' %}" rel="stylesheet" type="text/css">
+		
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>My Project</title>
     </head>
@@ -20,22 +21,20 @@
 							<a class="h2">Акватория-05</a>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-8 col-sm-7 offset-lg-2 offset-md-0 offset-sm-0 offset-3 align-self-center">
-						<div class="">
+					<div class="col-lg-3 col-md-8 col-sm-7 offset-lg-2 offset-md-0 offset-sm-0 offset-3 align-self-center text-lg-center">
+						<div class="d-none d-sm-block">
 							<a href = "+79158888888" class="tel">{{contact.tel}}</a>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg col-md-12 col-sm-12 offset-lg-0 offset-md-3 offset-sm-3 offset-0 align-self-center">
+						<div class="col-lg col-md-12 col-sm-12 offset-lg-0 offset-md-3 offset-sm-3 offset-0 align-self-center text-center">
 							<div class="d-none d-sm-block">
-								<button type="button" class="btn btn-primary btn-lg">Оставить заявку</button>
+								<button type="button" class="btn btn-primary btn-lg button">Оставить заявку</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			
         	<nav class="d-flex navbar navbar-expand-lg navbar-dark" style="background-color: #245086;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
